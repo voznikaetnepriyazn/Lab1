@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    public interface ICars//вопрос - лучше делать карс абстракт классом или можно оставить интерфейсом
+    public abstract class Cars: Technics
     {
         public double MaxUsefulWeight{ get; set; }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    public class Truck : Technics, ICars, ILandMove
+    public class Truck :  Cars, ILandMove
     {
         public double EngineCapacity { get; set; }
 
